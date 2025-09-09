@@ -10,7 +10,7 @@ export function SiteFooter() {
           <p className="text-sm">Bhande Plot, Bapu Nagar, Nandanvan</p>
           <p className="text-sm">Nagpur, Maharashtra 440024</p>
           <p className="mt-2 text-sm">Tel: <a href="tel:08087623040" className="hover:underline">080876 23040</a></p>
-          <p className="text-sm">Email: <a href="mailto:info@zunudental.com" className="hover:underline">info@zunudental.com</a></p>
+          {/* <p className="text-sm">Email: <a href="mailto:info@zunudental.com" className="hover:underline">info@zunudental.com</a></p> */}
         </div>
         <div>
           <h3 className="font-semibold tracking-wide">Hours</h3>
