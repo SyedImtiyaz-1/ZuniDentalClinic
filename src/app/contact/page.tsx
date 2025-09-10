@@ -46,8 +46,8 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent className="p-6">
               <div className="space-y-4">
-                <a href="tel:07415212274" className="block text-2xl font-bold text-teal-600 hover:text-teal-700 transition-colors">
-                  +917415212274
+                <a href="tel:09399406230" className="block text-2xl font-bold text-teal-600 hover:text-teal-700 transition-colors">
+                  +919399406230
                 </a>
                 <p className="text-gray-600">Available during business hours</p>
               </div>
@@ -115,12 +115,12 @@ export default function ContactPage() {
               Book Online
             </Button>
           </a>
-          <a href="https://wa.me/917415212274?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Shabana%20Anjum" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/919399406230?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Shabana%20Anjum" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="lg" className="bg-white text-teal-600 hover:bg-gray-100 text-lg px-8 py-3 cursor-pointer">
               WhatsApp
             </Button>
           </a>
-          <a href="tel:7415212274">
+          <a href="tel:9399406230">
             <Button variant="outline" size="lg" className="bg-white text-black text-teal-600 hover:bg-gray-100 text-lg px-8 py-3 cursor-pointer">
               Call Now
             </Button>
