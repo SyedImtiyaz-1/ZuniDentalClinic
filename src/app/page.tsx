@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <section className="relative">
-        <Image src="/hero.png" alt="Zuni's Dental Care" width={1920} height={900} className="w-full h-[60vh] object-cover" />
+        <Image src="/hero.png" alt="Zuni's Dental Care" width={1920} height={900} className="bold w-full h-[60vh] object-cover" />
         <div className="absolute inset-0 bg-teal-900/40" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white px-4 max-w-4xl">
