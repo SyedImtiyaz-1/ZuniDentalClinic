@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zuni's Dental Clinic",
+  title: "Zuni's Dental Care",
   description: "Compassionate dental care and easy online booking",
 };
 

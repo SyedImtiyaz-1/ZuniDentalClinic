@@ -126,6 +126,7 @@ export default function Home() {
         <div className="text-center md:text-left hidden md:block">
           <h2 className="text-3xl sm:text-4xl underline font-extrabold tracking-wide">About Us</h2>
           <p className="mt-6 text-gray-700 leading-7 text-sm sm:text-base">
+          <b className="text-base">Dr. Shabana Anjum | B.D.S.(Dental Surgeon) | Cosmetologist </b> <br /> <br />
             We provide comprehensive dental care focused on prevention, comfort, and long-term oral health. Our team helps you set goals, build confidence, and maintain bright, healthy smiles.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center md:justify-start">
@@ -157,6 +158,7 @@ export default function Home() {
         {/* Mobile-only text and buttons section */}
         <div className="md:hidden mt-8 text-center">
           <p className="text-gray-700 leading-7 text-sm mb-6">
+          <b className="text-base">Dr. Shabana Anjum | B.D.S.(Dental Surgeon) </b> <br />  <br />
             We provide comprehensive dental care focused on prevention, comfort, and long-term oral health. Our team helps you set goals, build confidence, and maintain bright, healthy smiles.
           </p>
           <div className="flex flex-col gap-4">
