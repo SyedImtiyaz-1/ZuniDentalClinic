@@ -19,7 +19,8 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-white/80 backdrop-blur">
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
-        <Link href="/" className="font-semibold tracking-wide text-teal-700 text-lg">
+        <Link href="/" className="font-semibold tracking-wide text-teal-700 text-lg flex items-center gap-2">
+          <img src="/tooth.png" alt="Tooth Logo" style={{ height: 32 }} />
           Zuni&apos;s Dental Clinic
         </Link>
         <nav className="hidden md:block">

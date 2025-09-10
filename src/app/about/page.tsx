@@ -11,9 +11,6 @@ export default function AboutPage() {
         <p className="mt-4 text-gray-700 leading-7 text-sm sm:text-base">
           Success is a personal standard, reaching for the highest that is in us, becoming all that we can be. If we do our best, we are a success.
         </p>
-        <button className="mt-6 bg-black text-white px-6 py-3 rounded-md hover:bg-gray-800 transition-colors w-full sm:w-auto cursor-pointer">
-          Read More
-        </button>
       </div>
       <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] order-1 md:order-2">
         <Image 

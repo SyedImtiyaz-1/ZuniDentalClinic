@@ -28,35 +28,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/tooth.png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
-        <Script src="https://assets.calendly.com/assets/external/widget.js" strategy="beforeInteractive" />
-        <Script id="calendly-badge" strategy="beforeInteractive">
-          {`(function() {
-            function initCalendly() {
-              if (typeof Calendly !== 'undefined') {
-                Calendly.initBadgeWidget({ 
-                  url: 'https://calendly.com/zunidentalclinic/30min', 
-                  text: 'Schedule time with me', 
-                  color: '#0069ff', 
-                  textColor: '#ffffff', 
-                  branding: true 
-                });
-              } else {
-                setTimeout(initCalendly, 100);
-              }
-            }
-            if (document.readyState === 'loading') {
-              document.addEventListener('DOMContentLoaded', initCalendly);
-            } else {
-              initCalendly();
-            }
-          })();`}
-        </Script>
         
         {/* WhatsApp Chat Widget */}
         <div id="whatsapp-widget" className="fixed bottom-6 right-6 z-50">

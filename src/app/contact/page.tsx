@@ -28,9 +28,9 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent className="p-6">
               <div className="space-y-3 text-gray-700">
-                <p className="font-medium">Plot No. 50, Umred Rd, behind Navoday Hospital</p>
-                <p>Bhande Plot, Bapu Nagar, Nandanvan</p>
-                <p className="font-semibold">Nagpur, Maharashtra 440024</p>
+                <p className="font-medium">Plot No. 50, Umred Rd, behind Navoday Hospital, Bhande Plot, Bapu Nagar, Nandanvan, Nagpur, Maharashtra, 440024</p>
+                <p></p>
+                <p className="font-semibold"></p>
               </div>
             </CardContent>
           </Card>
@@ -46,8 +46,8 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent className="p-6">
               <div className="space-y-4">
-                <a href="tel:08087623040" className="block text-2xl font-bold text-teal-600 hover:text-teal-700 transition-colors">
-                  080876 23040
+                <a href="tel:07415212274" className="block text-2xl font-bold text-teal-600 hover:text-teal-700 transition-colors">
+                  +917415212274
                 </a>
                 <p className="text-gray-600">Available during business hours</p>
               </div>
@@ -66,12 +66,10 @@ export default function ContactPage() {
             <CardContent className="p-6">
               <div className="space-y-2 text-gray-700">
                 <div className="flex justify-between">
-                  <span className="font-medium">Monday - Saturday</span>
-                  <span>11:00 AM – 10:00 PM</span>
+                  <span className="font-medium">Monday - Saturday ➜ 11:00 AM – 10:00 PM</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="font-medium">Sunday</span>
-                  <span className="text-red-600">Closed</span>
+                  <span className="font-medium">Sunday ➜ <span style={{ color: 'red' }}>Closed</span></span>
                 </div>
               </div>
             </CardContent>
@@ -112,18 +110,18 @@ export default function ContactPage() {
           Choose your preferred way to get in touch with us
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="https://calendly.com/zunidentalclinic/30min" target="_blank" rel="noopener noreferrer">
+          <a href="https://calendly.com/zunidentalclinic/appointment" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-white text-teal-600 hover:bg-gray-100 text-lg px-8 py-3 cursor-pointer">
               Book Online
             </Button>
           </a>
           <a href="https://wa.me/917415212274?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Shabana%20Anjum" target="_blank" rel="noopener noreferrer">
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-teal-600 text-lg px-8 py-3 cursor-pointer">
+            <Button variant="outline" size="lg" className="bg-white text-teal-600 hover:bg-gray-100 text-lg px-8 py-3 cursor-pointer">
               WhatsApp
             </Button>
           </a>
-          <a href="tel:08087623040">
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-teal-600 text-lg px-8 py-3 cursor-pointer">
+          <a href="tel:7415212274">
+            <Button variant="outline" size="lg" className="bg-white text-black text-teal-600 hover:bg-gray-100 text-lg px-8 py-3 cursor-pointer">
               Call Now
             </Button>
           </a>

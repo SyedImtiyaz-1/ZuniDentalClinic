@@ -24,7 +24,7 @@ export default function BookingPage() {
             </p>
             <div className="space-y-3">
               <a 
-                href="https://calendly.com/zunidentalclinic/30min" 
+                href="https://calendly.com/zunidentalclinic/appointment" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block"
@@ -50,9 +50,9 @@ export default function BookingPage() {
               and we&apos;ll help you schedule your appointment.
             </p>
             <div className="space-y-3">
-              <a href="tel:08087623040" className="block">
+              <a href="tel:07415212274" className="block">
                 <Button variant="outline" className="w-full border-teal-600 text-teal-600 hover:bg-teal-50 text-lg py-6 cursor-pointer">
-                  Call: 080876 23040
+                  Call: +917415212274
                 </Button>
               </a>
               <div className="text-sm text-gray-600">

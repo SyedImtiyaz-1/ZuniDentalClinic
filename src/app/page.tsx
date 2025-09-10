@@ -28,56 +28,86 @@ export default function Home() {
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow">
-            <div className="text-center">
-              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-teal-600 font-bold text-lg">1</span>
-              </div>
+          <div className="bg-white rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow overflow-hidden">
+            <div className="relative h-32 w-full">
+              <Image
+                src="/digitalxray.jpeg"
+                alt="Digital X-Ray"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-6 text-center">
               <h3 className="text-lg font-semibold mb-2">Digital X-Ray</h3>
               <p className="text-gray-600 text-sm">Advanced digital imaging for accurate diagnosis</p>
             </div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow">
-            <div className="text-center">
-              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-teal-600 font-bold text-lg">2</span>
-              </div>
+          <div className="bg-white rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow overflow-hidden">
+            <div className="relative h-32 w-full">
+              <Image
+                src="/root-canal-treatment.jpg"
+                alt="Root Canal Treatment"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-6 text-center">
               <h3 className="text-lg font-semibold mb-2">Root Canal Treatment</h3>
               <p className="text-gray-600 text-sm">Complete treatment for all teeth including wisdom teeth</p>
             </div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow">
-            <div className="text-center">
-              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-teal-600 font-bold text-lg">3</span>
-              </div>
+          <div className="bg-white rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow overflow-hidden">
+            <div className="relative h-32 w-full">
+              <Image
+                src="/painless-extraction.jpg"
+                alt="Painless Extraction"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-6 text-center">
               <h3 className="text-lg font-semibold mb-2">Painless Extraction</h3>
               <p className="text-gray-600 text-sm">Comfortable and pain-free tooth removal</p>
             </div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow">
-            <div className="text-center">
-              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-teal-600 font-bold text-lg">4</span>
-              </div>
+          <div className="bg-white rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow overflow-hidden">
+            <div className="relative h-32 w-full">
+              <Image
+                src="/dental-implant.jpg"
+                alt="Dental Implants"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-6 text-center">
               <h3 className="text-lg font-semibold mb-2">Dental Implants</h3>
               <p className="text-gray-600 text-sm">Replacement of missing teeth with durable implants</p>
             </div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow">
-            <div className="text-center">
-              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-teal-600 font-bold text-lg">5</span>
-              </div>
+          <div className="bg-white rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow overflow-hidden">
+            <div className="relative h-32 w-full">
+              <Image
+                src="/orthodontic-treatment.jpg"
+                alt="Orthodontic Treatment"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-6 text-center">
               <h3 className="text-lg font-semibold mb-2">Orthodontic Treatment</h3>
               <p className="text-gray-600 text-sm">Fixed treatment for mal-aligned teeth</p>
             </div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow">
-            <div className="text-center">
-              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-teal-600 font-bold text-lg">6</span>
-              </div>
+          <div className="bg-white rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow overflow-hidden">
+            <div className="relative h-32 w-full">
+              <Image
+                src="/teeth-whitening.jpg"
+                alt="Teeth Whitening"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-6 text-center">
               <h3 className="text-lg font-semibold mb-2">Teeth Whitening</h3>
               <p className="text-gray-600 text-sm">Professional cleaning and whitening treatments</p>
             </div>
