@@ -73,7 +73,7 @@ export function SiteFooter() {
       </div>
       <div className="bg-teal-700">
         <div className="mx-auto max-w-6xl px-4 py-3 text-xs text-teal-100 flex justify-center items-center">
-          <span>© {new Date().getFullYear()} Zuni&apos;s Dental Clinic</span>
+          <span>© {new Date().getFullYear()} Zuni&apos;s Dental Care</span>
           <div className="flex items-center gap-2"></div>
         </div>
       </div>

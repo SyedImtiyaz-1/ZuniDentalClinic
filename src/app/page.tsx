@@ -22,7 +22,7 @@ export default function Home() {
 
       <section className="mx-auto max-w-6xl px-4 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-wide mb-6 underline">Our Services</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-wide mb-6 underline decoration-2 underline-offset-4">Our Services</h2>
           <p className="text-gray-700 text-sm sm:text-base max-w-2xl mx-auto">
             Comprehensive dental care with modern facilities and affordable pricing
           </p>
@@ -124,7 +124,7 @@ export default function Home() {
 
       <section className="mx-auto max-w-6xl px-4 py-16 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="text-center md:text-left hidden md:block">
-          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-wide underline">About Us</h2>
+          <h2 className="text-3xl sm:text-4xl underline font-extrabold tracking-wide">About Us</h2>
           <p className="mt-6 text-gray-700 leading-7 text-sm sm:text-base">
             We provide comprehensive dental care focused on prevention, comfort, and long-term oral health. Our team helps you set goals, build confidence, and maintain bright, healthy smiles.
           </p>
@@ -139,18 +139,21 @@ export default function Home() {
         </div>
         {/* Mobile-only About Us heading */}
         <div className="md:hidden text-center mb-6">
-          <h2 className="text-3xl font-extrabold tracking-wide">About Us</h2>
+          <h2 className="text-3xl font-extrabold underline decoration-2 underline-offset-4 tracking-wide">
+            About Us
+          </h2>
+
         </div>
-        
+
         <div className="relative w-full h-[400px]">
-          <Image 
-            src="/dr.jpeg" 
-            alt="Dr. Shabana Anjum" 
-            fill 
-            className="object-contain object-center rounded-lg shadow-lg bg-white border border-gray-200" 
+          <Image
+            src="/dr.jpeg"
+            alt="Dr. Shabana Anjum"
+            fill
+            className="object-contain object-center rounded-lg shadow-lg bg-white border border-gray-200"
           />
         </div>
-        
+
         {/* Mobile-only text and buttons section */}
         <div className="md:hidden mt-8 text-center">
           <p className="text-gray-700 leading-7 text-sm mb-6">
