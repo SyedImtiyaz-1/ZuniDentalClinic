@@ -23,7 +23,7 @@ export default function ContactPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                Visit Our Clinic
+                Visit Our Care
               </CardTitle>
             </CardHeader>
             <CardContent className="p-6">
@@ -46,8 +46,8 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent className="p-6">
               <div className="space-y-4">
-                <a href="tel:09399406230" className="block text-2xl font-bold text-teal-600 hover:text-teal-700 transition-colors">
-                  +919399406230
+                <a href="tel:07415212274" className="block text-2xl font-bold text-teal-600 hover:text-teal-700 transition-colors">
+                  +917415212274
                 </a>
                 <p className="text-gray-600">Available during business hours</p>
               </div>
@@ -115,12 +115,12 @@ export default function ContactPage() {
               Book Online
             </Button>
           </a>
-          <a href="https://wa.me/919399406230?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Shabana%20Anjum" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/917415212274?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Shabana%20Anjum" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="lg" className="bg-white text-teal-600 hover:bg-gray-100 text-lg px-8 py-3 cursor-pointer">
               WhatsApp
             </Button>
           </a>
-          <a href="tel:9399406230">
+          <a href="tel:7415212274">
             <Button variant="outline" size="lg" className="bg-white text-black text-teal-600 hover:bg-gray-100 text-lg px-8 py-3 cursor-pointer">
               Call Now
             </Button>

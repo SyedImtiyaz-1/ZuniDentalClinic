@@ -109,7 +109,7 @@ export default function ServicesPage() {
               Book Appointment
             </Button>
           </a>
-          <a href="tel:09399406230">
+          <a href="tel:07415212274">
             <Button variant="outline" size="lg" className="border-white text-black hover:bg-white hover:text-gray-900 text-lg px-8 py-3 cursor-pointer">
               Call Now
             </Button>

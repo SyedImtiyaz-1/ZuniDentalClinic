@@ -52,7 +52,7 @@ export default function RootLayout({
         
         <Script id="whatsapp-widget-script" strategy="afterInteractive">
           {`document.getElementById('whatsapp-widget').addEventListener('click', function() {
-            window.open('https://wa.me/919399406230?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Shabana%20Anjum', '_blank');
+            window.open('https://wa.me/917415212274?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Shabana%20Anjum', '_blank');
           });`}
         </Script>
       </body>
