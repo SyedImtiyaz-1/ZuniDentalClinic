@@ -20,7 +20,7 @@ export default function BookingPage() {
           <CardContent className="text-center space-y-4">
             <p className="text-gray-700">
               Book your appointment instantly using our Calendly booking system. 
-              Available 24/7 for your convenience.
+              Available Monday to Saturday (11:00 AM - 10:00 PM).
             </p>
             <div className="space-y-3">
               <a 
