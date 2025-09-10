@@ -22,7 +22,7 @@ export default function Home() {
 
       <section className="mx-auto max-w-6xl px-4 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-wide mb-6">Our Services</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-wide mb-6 underline">Our Services</h2>
           <p className="text-gray-700 text-sm sm:text-base max-w-2xl mx-auto">
             Comprehensive dental care with modern facilities and affordable pricing
           </p>
@@ -124,7 +124,7 @@ export default function Home() {
 
       <section className="mx-auto max-w-6xl px-4 py-16 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="text-center md:text-left hidden md:block">
-          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-wide">About Us</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-wide underline">About Us</h2>
           <p className="mt-6 text-gray-700 leading-7 text-sm sm:text-base">
             We provide comprehensive dental care focused on prevention, comfort, and long-term oral health. Our team helps you set goals, build confidence, and maintain bright, healthy smiles.
           </p>
