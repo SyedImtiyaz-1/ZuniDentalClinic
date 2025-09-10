@@ -57,7 +57,7 @@ export default function ServicesPage() {
       {/* Why Choose Us Section */}
       <div className="bg-gradient-to-r from-teal-50 to-blue-50 rounded-2xl p-8 md:p-12 mb-16">
         <div className="text-center mb-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Choose Zuni&apos;s Dental Clinic?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Choose Zuni&apos;s Dental Care?</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Experience the difference with our comprehensive approach to dental care
           </p>
