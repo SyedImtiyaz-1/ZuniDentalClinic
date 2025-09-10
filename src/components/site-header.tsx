@@ -21,7 +21,7 @@ export function SiteHeader() {
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         <Link href="/" className="font-semibold tracking-wide text-teal-700 text-lg flex items-center gap-2">
           <img src="/tooth.png" alt="Tooth Logo" style={{ height: 32 }} />
-          Zuni&apos;s Dental Care
+          <b>Zuni&apos;s Dental Care</b>
         </Link>
         <nav className="hidden md:block">
           <NavigationMenu>
